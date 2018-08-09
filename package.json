@@ -2,7 +2,7 @@
   "name": "react-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://mtsmith89.github.io/",
+  "homepage" : "http://mtsmith89.github.io/portfolio/",
   "scripts": {
     "start": "node scripts/start.js",
     "start:prod": "ENV=prod node scripts/start.js",
@@ -11,7 +11,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "react": "^16.2.0",
